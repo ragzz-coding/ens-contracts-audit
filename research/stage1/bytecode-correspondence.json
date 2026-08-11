@@ -1,0 +1,512 @@
+{
+  "analysisTag": "v1.7.0",
+  "analysisCommit": "9b034936a42f462fc04bc0a929a419ede5e18d59",
+  "submoduleWorkingTreeLeftAt": "55b0eb76232f54e3770f1cf778584ba4fa905631",
+  "submoduleWorkingTreeNote": "staging HEAD intentionally left untouched; analysis used git show of tag only",
+  "rpc": "https://1rpc.io/eth",
+  "sources": {
+    "bountyRules": "https://immunefi.com/bug-bounty/ens/information/",
+    "immunefiAssets": "https://immunefi.com/bug-bounty/ens/scope/",
+    "officialDeploymentsWiki": "https://github.com/ensdomains/ens-contracts/wiki/ENS-Contract-Deployments",
+    "githubRelease": "https://github.com/ensdomains/ens-contracts/releases/tag/v1.7.0"
+  },
+  "summary": {
+    "wikiVsTagAddressExact": "35/35",
+    "sourcifyRuntimeExactOrMatch": 35,
+    "rawArtifactHexExact": 16,
+    "rawDiffLikelyImmutables": 16,
+    "noArtifactBytecode": 3
+  },
+  "contracts": [
+    {
+      "contract": "ArbitrumReverseResolver",
+      "mainnetAddress": "0x4b9572C03AAa8b0Efa4B4b0F0cc0f0992bEDB898",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:08:38Z"
+      },
+      "artifactReceiptBlockNumber": 22764837,
+      "transactionHash": "0x81b8e310111d4a41797b86f1989dfccd8672be3bf21ba7ee7617f2b06071c761"
+    },
+    {
+      "contract": "BaseRegistrarImplementation",
+      "mainnetAddress": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "NO_ARTIFACT_BYTECODE",
+      "sourcify": {
+        "runtimeMatch": "match",
+        "creationMatch": "match",
+        "match": "match",
+        "verifiedAt": "2024-08-08T12:28:08Z"
+      },
+      "artifactReceiptBlockNumber": null,
+      "transactionHash": null
+    },
+    {
+      "contract": "BaseReverseResolver",
+      "mainnetAddress": "0xc800DBc8ff9796E58EfBa2d7b35028DdD1997E5e",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:16:50Z"
+      },
+      "artifactReceiptBlockNumber": 22764838,
+      "transactionHash": "0xbff59b105417167146ef7440af98e5c6f98fa3ed2c50c183cc360ed38b5de089"
+    },
+    {
+      "contract": "BatchGatewayProvider",
+      "mainnetAddress": "0xd1E3FAc3837b85437530B8B5244E4deF43219C04",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:16:50Z"
+      },
+      "artifactReceiptBlockNumber": 23085495,
+      "transactionHash": "0xa925eafe73a0f1a30c470a2f549365156c7ecadf5485f6f16608b58138be094a"
+    },
+    {
+      "contract": "DNSRegistrar",
+      "mainnetAddress": "0xB32cB5677a7C971689228EC835800432B339bA2B",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T14:29:23Z"
+      },
+      "artifactReceiptBlockNumber": 19027588,
+      "transactionHash": "0x5ddb98103acbe8b5a68ac1b7e45abbddda5dff8ff2b65c5ed26e36cf34bec43e"
+    },
+    {
+      "contract": "DNSSECImpl",
+      "mainnetAddress": "0x0fc3152971714E5ed7723FAFa650F86A4BaF30C5",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-07-30T04:17:46Z"
+      },
+      "artifactReceiptBlockNumber": 19020686,
+      "transactionHash": "0xdd7b4a053abdb2548cf1814c34bb7bb8bc4c04fd40fca8ddaa9a5fa49c3dec39"
+    },
+    {
+      "contract": "DefaultReverseRegistrar",
+      "mainnetAddress": "0x283F227c4Bd38ecE252C4Ae7ECE650B0e913f1f9",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:08:26Z"
+      },
+      "artifactReceiptBlockNumber": 22764819,
+      "transactionHash": "0xbfce902659cf7dde13c7ceef2231a4a4ea2670137737a35ac8cc5c227fd8c956"
+    },
+    {
+      "contract": "DefaultReverseResolver",
+      "mainnetAddress": "0xA7d635c8de9a58a228AA69353a1699C7Cc240DCF",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:08:13Z"
+      },
+      "artifactReceiptBlockNumber": 22764871,
+      "transactionHash": "0xe3b955bad34a8f2e8702ae7710f01597b7ee843e29e38c5069a3d1228168766e"
+    },
+    {
+      "contract": "ENSRegistry",
+      "mainnetAddress": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "NO_ARTIFACT_BYTECODE",
+      "sourcify": {
+        "runtimeMatch": "match",
+        "creationMatch": "match",
+        "match": "match",
+        "verifiedAt": "2024-08-08T11:25:57Z"
+      },
+      "artifactReceiptBlockNumber": null,
+      "transactionHash": null
+    },
+    {
+      "contract": "ETHRegistrarController",
+      "mainnetAddress": "0x59E16fcCd424Cc24e280Be16E11Bcd56fb0CE547",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:07:54Z"
+      },
+      "artifactReceiptBlockNumber": 22764821,
+      "transactionHash": "0xd11b2868fe9ac278f473439f32c67d0c1935aefc0143301179b7c2457b01afe9"
+    },
+    {
+      "contract": "ExponentialPremiumPriceOracle",
+      "mainnetAddress": "0x7542565191d074cE84fBfA92cAE13AcB84788CA9",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-07-30T04:15:10Z"
+      },
+      "artifactReceiptBlockNumber": 16925617,
+      "transactionHash": "0x43313ffb3a380740b97684cb86870c2f4997fdbce0cd5f43e2968e5386da6a49"
+    },
+    {
+      "contract": "ExtendedDNSResolver",
+      "mainnetAddress": "0x08769D484a7Cd9c4A98E928D9E270221F3E8578c",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:17:48Z"
+      },
+      "artifactReceiptBlockNumber": 20426738,
+      "transactionHash": "0x073a2781e7de2952710c167993a7900eb4c2c3838aeea1640666744aa7452dc8"
+    },
+    {
+      "contract": "LineaReverseResolver",
+      "mainnetAddress": "0x0Ce08a41bdb10420FB5Cac7Da8CA508EA313aeF8",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:17:50Z"
+      },
+      "artifactReceiptBlockNumber": 22764840,
+      "transactionHash": "0x1a5cf6806e376053681ec18e177a286049d1bc74cb111874d237b6a586a59f4a"
+    },
+    {
+      "contract": "MigrationHelper",
+      "mainnetAddress": "0xeA6407e845Bf7a462FBdb3584728a9f617dA7FE9",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:07:33Z"
+      },
+      "artifactReceiptBlockNumber": 22764856,
+      "transactionHash": "0x00dfc697ae7590fb28b972aabe6fa054ea8573a03be8c4b12345729c16886850"
+    },
+    {
+      "contract": "NameWrapper",
+      "mainnetAddress": "0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T14:31:10Z"
+      },
+      "artifactReceiptBlockNumber": 16925608,
+      "transactionHash": "0x72f81eb3c1feea020d06c0692ce9116f846a9e1bb5cdf27085d09721ec6367c3"
+    },
+    {
+      "contract": "OffchainDNSResolver",
+      "mainnetAddress": "0xF142B308cF687d4358410a4cB885513b30A42025",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T16:33:32Z"
+      },
+      "artifactReceiptBlockNumber": 19020689,
+      "transactionHash": "0xf3766f296d6514d11a2caef1366c09fc8d4990a6a1e2849b0a1261b6e33f0994"
+    },
+    {
+      "contract": "OptimismReverseResolver",
+      "mainnetAddress": "0xF9Edb1A21867aC11b023CE34Abad916D29aBF107",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:17:51Z"
+      },
+      "artifactReceiptBlockNumber": 22764854,
+      "transactionHash": "0xed6d5009e3d21ff20587c0600798d2cd0cd42d721ec7806d30f91c3685247dd3"
+    },
+    {
+      "contract": "P256SHA256Algorithm",
+      "mainnetAddress": "0xb091c4f6fac16edda5ee1e0f4738f80011905878",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-04-27T16:20:05Z"
+      },
+      "artifactReceiptBlockNumber": "0x1763f19",
+      "transactionHash": null
+    },
+    {
+      "contract": "PublicResolver",
+      "mainnetAddress": "0xF29100983E058B709F3D539b0c765937B804AC15",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:07:17Z"
+      },
+      "artifactReceiptBlockNumber": 22764828,
+      "transactionHash": "0x8718b5791bce22cb2b4af33bbfcde38b5273d14d8f5a943237c2687107238834"
+    },
+    {
+      "contract": "RSASHA1Algorithm",
+      "mainnetAddress": "0x58e0383e21f25dab957f6664240445a514e9f5e8",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-04-27T16:20:07Z"
+      },
+      "artifactReceiptBlockNumber": "0x1763f17",
+      "transactionHash": null
+    },
+    {
+      "contract": "RSASHA256Algorithm",
+      "mainnetAddress": "0xaee0e2c4d5ab2fc164c8b0cc8d3118c1c752c95e",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-04-27T16:20:03Z"
+      },
+      "artifactReceiptBlockNumber": "0x1763f18",
+      "transactionHash": null
+    },
+    {
+      "contract": "RegistrarSecurityController",
+      "mainnetAddress": "0x7dd4d97653a67c2fd7fba0a84825ec09524d4e1b",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-04-07T18:00:12Z"
+      },
+      "artifactReceiptBlockNumber": "0x174b67c",
+      "transactionHash": null
+    },
+    {
+      "contract": "ReverseRegistrar",
+      "mainnetAddress": "0xa58E81fe9b61B5c3fE2AFD33CF304c454AbFc7Cb",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-04-20T14:23:11Z"
+      },
+      "artifactReceiptBlockNumber": 16925606,
+      "transactionHash": "0x93d9a7b934d176c7acd14b29e87f141ce73493e7433ac4dbdd0bf5de8c950f5f"
+    },
+    {
+      "contract": "Root",
+      "mainnetAddress": "0xaB528d626EC275E3faD363fF1393A41F581c5897",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "NO_ARTIFACT_BYTECODE",
+      "sourcify": {
+        "runtimeMatch": "match",
+        "creationMatch": "match",
+        "match": "match",
+        "verifiedAt": "2024-08-08T16:03:04Z"
+      },
+      "artifactReceiptBlockNumber": null,
+      "transactionHash": null
+    },
+    {
+      "contract": "RootSecurityController",
+      "mainnetAddress": "0x95123b1ec97df0d3c52c728ab38fbbb7a3ca6da6",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-04-07T18:00:41Z"
+      },
+      "artifactReceiptBlockNumber": "0x174b67e",
+      "transactionHash": null
+    },
+    {
+      "contract": "SHA1Digest",
+      "mainnetAddress": "0x9c9fcEa62bD0A723b62A2F1e98dE0Ee3df813619",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-01-26T15:29:26Z"
+      },
+      "artifactReceiptBlockNumber": 19020684,
+      "transactionHash": "0x15d000fd3bf7aaf9a0c767946e7f21bfd15067543cf2dfec35f3c4a5b16ab993"
+    },
+    {
+      "contract": "SHA1NSEC3Digest",
+      "mainnetAddress": "0x849851A7683cfF52De5F50C712C0606FEf6A3e8f",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T14:25:02Z"
+      },
+      "artifactReceiptBlockNumber": 13040273,
+      "transactionHash": "0x1e9806d0963233a2ceec08d32665ad9be97ef45c029d597480e37bdfc2055fa5"
+    },
+    {
+      "contract": "SHA256Digest",
+      "mainnetAddress": "0xCFe6edBD47a032585834A6921D1d05CB70FcC36d",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-01-26T15:29:55Z"
+      },
+      "artifactReceiptBlockNumber": 19020685,
+      "transactionHash": "0x32be39e9dbde5c8c29ba6d5f55df7b9b2cc8855b8cf63f53959ab5e86c5de4f9"
+    },
+    {
+      "contract": "ScrollReverseResolver",
+      "mainnetAddress": "0xC4842814cA523E481Ca5aa85F719FEd1E9CaC614",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-10-04T18:17:57Z"
+      },
+      "artifactReceiptBlockNumber": 22921284,
+      "transactionHash": "0x3e8d3e02bbab5599e9b7b3339781957022b3be1b5906f711825da62b477f5a41"
+    },
+    {
+      "contract": "SimplePublicSuffixList",
+      "mainnetAddress": "0x823BDa9cA8c47d072376eCD595530c8fb2fAa3ED",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T14:31:40Z"
+      },
+      "artifactReceiptBlockNumber": 19027537,
+      "transactionHash": "0x7ec644afd6e132e8b9de61566e64011ef79810801ded41757b839d74730bec3f"
+    },
+    {
+      "contract": "StaticBulkRenewal",
+      "mainnetAddress": "0xc649947a460B135e6B9a70Ee2FB429aDBB529290",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-08-06T08:06:53Z"
+      },
+      "artifactReceiptBlockNumber": 22764826,
+      "transactionHash": "0x721bcc1af66416cca14d217f89b8e5f177edcbb5098b43ccd021142d37ce924b"
+    },
+    {
+      "contract": "StaticMetadataService",
+      "mainnetAddress": "0x3A368e3D5F19aF3DE594A9fC2CFfc6e256a616c7",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-07-30T04:18:30Z"
+      },
+      "artifactReceiptBlockNumber": 16925607,
+      "transactionHash": "0xb932cee1f999f0da1b25144520fa37d583ec640d763034313bcce2dc6c73abc8"
+    },
+    {
+      "contract": "TLDPublicSuffixList",
+      "mainnetAddress": "0x7A72fEFd970A7726c4823623d88E9f3eFA1c300C",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "EXACT_HEX",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2026-01-16T18:21:10Z"
+      },
+      "artifactReceiptBlockNumber": 19020727,
+      "transactionHash": "0x7943cdd2d5675e25eee44b1eff8da0cb5ef699121e4ee572ba31979fbba26e9f"
+    },
+    {
+      "contract": "UniversalResolver",
+      "mainnetAddress": "0xED73a03F19e8D849E44a39252d222c6ad5217E1e",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2025-09-26T09:58:45Z"
+      },
+      "artifactReceiptBlockNumber": 23085497,
+      "transactionHash": "0x9cf411899e09d91b7ed7d44ba349125bab5b0c21d100257cdc7523f17944565e"
+    },
+    {
+      "contract": "WrappedETHRegistrarController",
+      "mainnetAddress": "0x253553366Da8546fC250F225fe3d25d0C782303b",
+      "wikiAddressMatch": true,
+      "artifactRawBytecodeVsChain": "DIFF_LIKELY_IMMUTABLES",
+      "sourcify": {
+        "runtimeMatch": "exact_match",
+        "creationMatch": "exact_match",
+        "match": "exact_match",
+        "verifiedAt": "2024-08-08T14:13:33Z"
+      },
+      "artifactReceiptBlockNumber": 16925618,
+      "transactionHash": "0xd4c3af572220ed3391cd22e5703a335b99590272a8d76f9678a75f2b98d1815e"
+    }
+  ]
+}
