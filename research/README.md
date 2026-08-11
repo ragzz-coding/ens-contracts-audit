@@ -15,3 +15,7 @@ See [`OPERATING_RULES.md`](./OPERATING_RULES.md).
 
 **Primary target:** Git tag `v1.7.0` @ commit `9b034936a42f462fc04bc0a929a419ede5e18d59`  
 **Not the target:** submodule working tree / `staging` tip `55b0eb7`
+
+## Stage 2
+
+- [`stage2/REGISTRATION_SECURITY_MODEL.md`](./stage2/REGISTRATION_SECURITY_MODEL.md) — .eth registration/payment security model (state machine, entrypoints, commit–reveal, payment/refund, trust boundaries)
