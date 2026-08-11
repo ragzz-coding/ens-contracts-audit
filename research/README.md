@@ -18,9 +18,21 @@ See [`OPERATING_RULES.md`](./OPERATING_RULES.md).
 
 ## Stage 2
 
-- [`stage2/NAMEWRAPPER_SECURITY_MODEL.md`](./stage2/NAMEWRAPPER_SECURITY_MODEL.md) — NameWrapper fuse/expiry/wrap security model @ `v1.7.0`
+Authoritative synthesis:
 
-## Stage 2
+- [`stage2/CONTRACT_ATTACK_SURFACE.md`](./stage2/CONTRACT_ATTACK_SURFACE.md)
+- [`stage2/VALUE_AUTHORITY_GRAPH.md`](./stage2/VALUE_AUTHORITY_GRAPH.md)
+- [`stage2/CORE_INVARIANTS.md`](./stage2/CORE_INVARIANTS.md)
+- [`stage2/TRUST_BOUNDARIES.md`](./stage2/TRUST_BOUNDARIES.md)
+- [`stage2/MECHANISM_DEEP_DIVE.md`](./stage2/MECHANISM_DEEP_DIVE.md)
+- [`stage2/HISTORY_SECURITY_CONTEXT.md`](./stage2/HISTORY_SECURITY_CONTEXT.md)
+- [`stage2/HYPOTHESES.md`](./stage2/HYPOTHESES.md)
+- [`stage2/PHASE_H_VERDICT.md`](./stage2/PHASE_H_VERDICT.md)
 
-- [`stage2/REGISTRATION_SECURITY_MODEL.md`](./stage2/REGISTRATION_SECURITY_MODEL.md) — .eth registration/payment security model (state machine, entrypoints, commit–reveal, payment/refund, trust boundaries)
-- [`stage2/RESOLUTION_SECURITY_MODEL.md`](./stage2/RESOLUTION_SECURITY_MODEL.md) — registry / resolvers / UniversalResolver+CCIP / reverse / DNSSEC / multicall attack model (unprivileged)
+Supporting deep models:
+
+- [`stage2/NAMEWRAPPER_SECURITY_MODEL.md`](./stage2/NAMEWRAPPER_SECURITY_MODEL.md)
+- [`stage2/REGISTRATION_SECURITY_MODEL.md`](./stage2/REGISTRATION_SECURITY_MODEL.md)
+- [`stage2/RESOLUTION_SECURITY_MODEL.md`](./stage2/RESOLUTION_SECURITY_MODEL.md)
+
+**Stage 2 verdict:** PROMISING — strongest tests: H1 (DNSSEC crypto), H2 (register reentrancy), H3 (offchain DNS resolution integrity). No PoCs yet.
