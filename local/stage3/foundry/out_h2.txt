@@ -1,0 +1,90 @@
+No files changed, compilation skipped
+
+Ran 9 tests for test/H2_RegisterReentrancy.t.sol:H2_RegisterReentrancyTest
+[PASS] test_H2A_midRegisterState_logged() (gas: 423724)
+Logs:
+  === H2 PHASE A: mid multicallWithNodeCheck state ===
+  msg.sender (expect controller): 0x5C513E7c7165dDd8C6A019C87E301a86cEb83f9F
+  NFT owner mid-call (expect controller): 0x5C513E7c7165dDd8C6A019C87E301a86cEb83f9F
+  ENS owner mid-call (expect victim): 0x131f15F1fD1024551542390614B6c7e210A911AF
+  controller balance mid-call: 1100000000000000000
+  controller balance before register: 1000000000000000000
+  final NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  final ENS owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  CLASSIFICATION=NO_IMPACT
+  PHASE_A_RESULT=observed expected interim ownership window; no theft
+
+[PASS] test_H2B_reenterRegister_sameName_fails() (gas: 707930)
+Logs:
+  === H2 PHASE B: REENTER_REGISTER same name ===
+  attackSucceeded: false
+  0x477707e80000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000873616d656e616d65000000000000000000000000000000000000000000000000
+  NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  ENS owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterRegister_secondName_withCommitment() (gas: 729115)
+Logs:
+  === H2 PHASE B: REENTER_REGISTER second name ===
+  attackSucceeded: true
+  first NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  second NFT owner: 0x9dF0C6b0066D5317aA5b38B36850548DaCCa6B4e
+  evil contract bal spent; attacker EOA bal: 9900000000000000000
+  NOTE=nested register of a separately committed name can succeed; not theft of victim name
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterRenew_noTheft() (gas: 667717)
+Logs:
+  === H2 PHASE B: RENEW reentrancy ===
+  attackSucceeded: true
+  renewme NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  renewatk NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterSetEnsOwner_fails() (gas: 499771)
+Logs:
+  === H2 PHASE B: SET_ENS_OWNER reentrancy ===
+  attackSucceeded: false
+  ENS owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  0x
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterTransferNft_fails() (gas: 620859)
+Logs:
+  === H2 PHASE B: TRANSFER_NFT reentrancy ===
+  attackSucceeded: false
+  final NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  final ENS owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002d4552433732313a2063616c6c6572206973206e6f7420746f6b656e206f776e6572206f7220617070726f76656400000000000000000000000000000000000000
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterWithdraw_noAttackerProfit() (gas: 490287)
+Logs:
+  === H2 PHASE B: WITHDRAW reentrancy ===
+  attackSucceeded (withdraw): true
+  admin delta: 1100000000000000000
+  attacker delta: -100000000000000000
+  controller final bal: 0
+  NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  CLASSIFICATION=NO_IMPACT
+
+[PASS] test_H2B_reenterWithdraw_withRefund_safeRevert() (gas: 494896)
+Logs:
+  === H2 PHASE B: WITHDRAW + refund path ===
+  CLASSIFICATION=SAFE_REVERT
+
+[PASS] test_H2C_valueAccounting_noTheft() (gas: 425337)
+Logs:
+  === H2 PHASE C: value accounting ===
+  attacker delta: -100000000000000000
+  victim delta: 0
+  controller delta: 100000000000000000
+  admin delta: 0
+  NFT owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  ENS owner: 0x131f15F1fD1024551542390614B6c7e210A911AF
+  CLASSIFICATION=NO_IMPACT
+  PHASE_C_RESULT=no NFT/ETH theft; ownership as registered
+
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 2.66ms (2.86ms CPU time)
+
+Ran 1 test suite in 8.10ms (2.66ms CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
