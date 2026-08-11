@@ -19,3 +19,4 @@ See [`OPERATING_RULES.md`](./OPERATING_RULES.md).
 ## Stage 2
 
 - [`stage2/REGISTRATION_SECURITY_MODEL.md`](./stage2/REGISTRATION_SECURITY_MODEL.md) — .eth registration/payment security model (state machine, entrypoints, commit–reveal, payment/refund, trust boundaries)
+- [`stage2/RESOLUTION_SECURITY_MODEL.md`](./stage2/RESOLUTION_SECURITY_MODEL.md) — registry / resolvers / UniversalResolver+CCIP / reverse / DNSSEC / multicall attack model (unprivileged)
