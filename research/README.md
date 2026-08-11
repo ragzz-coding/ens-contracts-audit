@@ -35,4 +35,15 @@ Supporting deep models:
 - [`stage2/REGISTRATION_SECURITY_MODEL.md`](./stage2/REGISTRATION_SECURITY_MODEL.md)
 - [`stage2/RESOLUTION_SECURITY_MODEL.md`](./stage2/RESOLUTION_SECURITY_MODEL.md)
 
-**Stage 2 verdict:** PROMISING — strongest tests: H1 (DNSSEC crypto), H2 (register reentrancy), H3 (offchain DNS resolution integrity). No PoCs yet.
+**Stage 2 verdict:** PROMISING — strongest tests: H1 (DNSSEC crypto), H2 (register reentrancy), H3 (offchain DNS resolution integrity).
+
+## Stage 3
+
+Experimental validation of H1–H3 (local Foundry harness under `local/stage3/foundry/`):
+
+- [`stage3/H1_DNSSEC_RESULTS.md`](./stage3/H1_DNSSEC_RESULTS.md) — **PROVEN NOT VULNERABLE**
+- [`stage3/H2_REGISTRAR_REENTRANCY_RESULTS.md`](./stage3/H2_REGISTRAR_REENTRANCY_RESULTS.md) — **PROVEN NOT VULNERABLE**
+- [`stage3/H3_OFFCHAINDNS_RESULTS.md`](./stage3/H3_OFFCHAINDNS_RESULTS.md) — **PROVEN NOT VULNERABLE**
+- [`stage3/STAGE3_ATTACK_SEQUENCES.md`](./stage3/STAGE3_ATTACK_SEQUENCES.md)
+- [`stage3/STAGE3_TEST_MATRIX.md`](./stage3/STAGE3_TEST_MATRIX.md)
+- [`stage3/STAGE3_FINAL_VERDICT.md`](./stage3/STAGE3_FINAL_VERDICT.md) — overall **CLEAN** for H1–H3
