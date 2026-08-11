@@ -47,3 +47,17 @@ Experimental validation of H1–H3 (local Foundry harness under `local/stage3/fo
 - [`stage3/STAGE3_ATTACK_SEQUENCES.md`](./stage3/STAGE3_ATTACK_SEQUENCES.md)
 - [`stage3/STAGE3_TEST_MATRIX.md`](./stage3/STAGE3_TEST_MATRIX.md)
 - [`stage3/STAGE3_FINAL_VERDICT.md`](./stage3/STAGE3_FINAL_VERDICT.md) — overall **CLEAN** for H1–H3
+
+## Stage 4
+
+NameWrapper / registrar / resolver authorization state-machine investigation (local Foundry harness under `local/stage4/foundry/`):
+
+- [`stage4/STATE_MACHINE.md`](./stage4/STATE_MACHINE.md)
+- [`stage4/NAMEWRAPPER_ANALYSIS.md`](./stage4/NAMEWRAPPER_ANALYSIS.md)
+- [`stage4/REGISTRAR_LIFECYCLE.md`](./stage4/REGISTRAR_LIFECYCLE.md)
+- [`stage4/RESOLVER_AUTH_ANALYSIS.md`](./stage4/RESOLVER_AUTH_ANALYSIS.md)
+- [`stage4/HYPOTHESES.md`](./stage4/HYPOTHESES.md)
+- [`stage4/POC_RESULTS.md`](./stage4/POC_RESULTS.md)
+- [`stage4/STAGE4_FINAL_VERDICT.md`](./stage4/STAGE4_FINAL_VERDICT.md) — overall **CLEAN**
+
+H1–H3 from Stage 3 were **not** reopened. All serious Stage 4 hypotheses: **PROVEN NOT VULNERABLE**.

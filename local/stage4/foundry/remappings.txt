@@ -1,0 +1,4 @@
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@ensdomains/buffer/=lib/buffer/
+forge-std/=lib/forge-std/src/
+@ensdomains/solsha1/=lib/solsha1/
